@@ -1,0 +1,44 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Main_body{
+    display: grid;
+}
+
+.header_item{
+    display: flex;
+    align-items: center;
+
+}
+
+.body_item ul{
+    padding-left: 40px;
+}
+
+#special_list{
+    padding: auto;
+}
+
+.first-container{
+    margin: 100px;
+}
+
+.left{
+    position: relative;
+    top: 100px;
+    height: 1250px;
+  width: 30px;
+  background-color: royalblue;
+  float: left;
+}
+
+.right{
+    position: relative;
+    top: 100px;
+    height: 1250px;
+  width: 30px;
+  background-color: royalblue;
+  float: right;
+}
